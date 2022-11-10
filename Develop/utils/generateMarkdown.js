@@ -1,15 +1,16 @@
 // TODO: Create a function that returns a license badge based on which license is passed in
 // If there is no license, return an empty string
 
-let importBadge = ""
+// let importBadge = ""
 
-function renderLicenseBadge(license) {
-  if(`${answers.license}`==="MIT"){
+// function renderLicenseBadge(license) {
+  
+//   if(`${answers.license}`==="MIT"){
 
-    let importBadge = "[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)"
- 
-  }
-}
+//     let importBadge = "[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)"
+// # ${importBadge} 
+//   }
+// }
 
 
 // TODO: Create a function that returns the license link
@@ -21,11 +22,19 @@ function renderLicenseBadge(license) {
 // function renderLicenseSection(license) {}
 
 // TODO: Create a function to generate markdown for README
+
 function generateMarkdown(answers) {
+  
+  
+  let editLicense = (answers.license).replaceAll('_'," ")
+
   return `
 # ${answers.title}
 
-# ${importBadge} 
+# ${answers.user}
+
+![badge](https://img.shields.io/badge/license-${answers.license}-blue)<br />
+
 
  ## Table of Contents
   - [Description](#description)
@@ -50,8 +59,10 @@ function generateMarkdown(answers) {
   ${answers.tests}
 
   ## License
-  ${answers.license}
-`;
+  ${editLicense}
+`
+
+;
 }
 
 module.exports = generateMarkdown;

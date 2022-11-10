@@ -51,9 +51,10 @@ const questions = [
         type: 'list',
         name: 'license',
         message: 'Choose your project license',
-        choices: ['Academic Free License v3.0','Microsoft Public License','MIT']
+        choices: ['Academic_Free_License_v3.0','Microsoft_Public_License','MIT']
     }
 ];
+
 
 function writeFile(){
     return inquirer.prompt(questions)
@@ -65,6 +66,7 @@ function writeFile(){
         }
         else {
             console.log("Generating README!")
+            
         }
     } )
 })
