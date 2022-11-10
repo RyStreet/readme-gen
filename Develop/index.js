@@ -51,7 +51,7 @@ const questions = [
         type: 'list',
         name: 'license',
         message: 'Choose your project license',
-        choices: ['Academic Free License v3.0','Apache license 2.0','Artistic license 2.0','Boost Software License 1.0','Creative Commons license family','Do What The F*ck You Want To Public License','Educational Community License v2.0','European Union Public License 1.1','GNU General Public License family','Microsoft Public License','MIT','University of Illinois/NCSA Open Source License','zLib License']
+        choices: ['Academic Free License v3.0','Microsoft Public License','MIT']
     }
 ];
 

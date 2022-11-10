@@ -1,5 +1,7 @@
-# README Generator
 
+# 
+
+# [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) 
 
  ## Table of Contents
   - [Description](#description)
@@ -7,22 +9,21 @@
   - [Usage](#usage)
   - [Contribution](#contribution)
   - [Tests](#tests)
-  - [License](#license)
 
   ## Description
-  Welcome to the README Generator! This project is a command-line app that utilizes node.js and inquierer to generate professional READMEs.
+  
 
   ## Installation
-  NA
+  
 
   ## Usage
-  Generating READMEs
+  
 
   ## Contribution
-  NA
+  
 
   ## Tests
-  NA
+  
 
   ## License
   MIT
