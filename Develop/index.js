@@ -51,8 +51,8 @@ const questions = [
         type: 'list',
         name: 'license',
         message: 'Choose your project license',
-        choices: ['Academic_Free_License_v3.0','Microsoft_Public_License','MIT']
-    }
+        choices: ['BSD3clause','Apache2','MIT','GPLv3','GPLv2','None']
+    },
 ];
 
 
@@ -68,6 +68,7 @@ function writeFile(){
             console.log("Generating README!")
             
         }
+        
     } )
 })
     .catch((err) => {

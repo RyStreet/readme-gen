@@ -25,7 +25,16 @@
 
 function generateMarkdown(answers) {
   
-  
+  const licenseLinks = {
+    MIT: "https://opensource.org/licenses/MIT",
+    BSD3clause: "https://opensource.org/licenses/BSD-3-Clause",
+    Apache2: "http://www.apache.org/licenses/LICENSE-2.0",
+    GPLv3: "https://www.gnu.org/licenses/gpl-3.0.html",
+    GPLv2: "https://www.gnu.org/licenses/old-licenses/gpl-2.0.html",
+    None: ""
+  };
+  answers.licenseLink = licenseLinks[answers.license];
+
   let editLicense = (answers.license).replaceAll('_'," ")
 
   return `
@@ -60,6 +69,7 @@ function generateMarkdown(answers) {
 
   ## License
   ${editLicense}
+  ${answers.licenseLink}
 `
 
 ;
