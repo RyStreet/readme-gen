@@ -2,7 +2,7 @@
 // If there is no license, return an empty string
 
 
-
+// if None is selected for license, function returns an empty string. Otherwise, function returns a badge with selected license.
 function renderLicenseBadge(answers) {
   let importBadge = ""
   if(answers.license ==="None"){
@@ -20,6 +20,8 @@ function renderLicenseBadge(answers) {
 
 // TODO: Create a function that returns the license section of README
 // If there is no license, return an empty string
+
+//Returns empty string if none is selected
 function renderLicenseSection(answers) {
   if (answers.license === "None") {
     return "";
@@ -48,34 +50,34 @@ function generateMarkdown(answers) {
 
   return `
 # **${answers.title}**
-___
-# ${answers.user}
 
+# ${answers.user} 👋
+___
 ${renderLicenseBadge(answers)}
 
- ## Table of Contents
+ ## Table of Contents 📒
   - [Description](#description)
   - [Installation](#installation)
   - [Usage](#usage)
   - [Contribution](#contribution)
   - [Tests](#tests)
-
-  ## Description
+___
+  ## Description ✏️
   ${answers.description}
-
-  ## Installation
+___
+  ## Installation 📩
   ${answers.installation}
-
-  ## Usage
+___
+  ## Usage 🛠️
   ${answers.usage}
-
-  ## Contribution
+___
+  ## Contribution 💗
   ${answers.contribution}
-
-  ## Tests
+___
+  ## Tests 🧪
   ${answers.tests}
-
-  ## License
+___
+  ## License ✔️
 [${renderLicenseSection(answers)}](${answers.licenseLink})
 `
 

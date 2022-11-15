@@ -1,31 +1,31 @@
 
 # ****
+
+# RyStreet 👋
 ___
-# RyStreet
+![badge](https://img.shields.io/badge/license-Apache2-blue)<br />
 
-![badge](https://img.shields.io/badge/license-BSD3clause-blue)<br />
-
- ## Table of Contents
+ ## Table of Contents 📒
   - [Description](#description)
   - [Installation](#installation)
   - [Usage](#usage)
   - [Contribution](#contribution)
   - [Tests](#tests)
-
-  ## Description
+___
+  ## Description ✏️
   
-
-  ## Installation
+___
+  ## Installation 📩
   
-
-  ## Usage
+___
+  ## Usage 🛠️
   
-
-  ## Contribution
+___
+  ## Contribution 💗
   
-
-  ## Tests
+___
+  ## Tests 🧪
   
-
-  ## License
-[BSD3clause](https://opensource.org/licenses/BSD-3-Clause)
+___
+  ## License ✔️
+[Apache2](http://www.apache.org/licenses/LICENSE-2.0)
