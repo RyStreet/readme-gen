@@ -14,6 +14,8 @@ ___
 ___
   ## Description 
   Welcome to the README Generator! This project uses node.js and inquirer to create professional READMEs. Users are prompted in the command line with a series of questions about their project. Upon entering their details, the program creates a professional README.
+  
+  Demo video: https://drive.google.com/file/d/1-jALhQ0t5smakee2y3nCuEye5GRbdKkB/view
 ___
   ## Installation 
   Clone this code and download node.js and inquirer. Open a terminal in the root of the folder and enter the command `node index`. From there, you will be prompted about your project. Fill out the form and your README will be generated!
