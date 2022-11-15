@@ -51,34 +51,42 @@ function generateMarkdown(answers) {
   return `
 # **${answers.title}**
 
-# ${answers.user} 👋
+## [${answers.user}](https://github.com/${answers.user}) 👋
 ___
 ${renderLicenseBadge(answers)}
 
- ## Table of Contents 📒
+ # Table of Contents 📒
   - [Description](#description)
   - [Installation](#installation)
   - [Usage](#usage)
   - [Contribution](#contribution)
   - [Tests](#tests)
 ___
-  ## Description ✏️
+  ## Description 
   ${answers.description}
 ___
-  ## Installation 📩
+  ## Installation 
   ${answers.installation}
 ___
-  ## Usage 🛠️
+  ## Usage 
   ${answers.usage}
 ___
-  ## Contribution 💗
+  ## Contribution 
   ${answers.contribution}
 ___
-  ## Tests 🧪
+  
+  ## Tests  
   ${answers.tests}
+  
 ___
-  ## License ✔️
+  ## License 
 [${renderLicenseSection(answers)}](${answers.licenseLink})
+___
+  ### Questions ❓
+  Contact me with any additional questions:
+  <br />
+  💻 ${answers.email}
+
 `
 
 ;
