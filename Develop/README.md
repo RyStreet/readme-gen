@@ -1,10 +1,9 @@
 
-# README.md Generator
-
+# ****
+___
 # RyStreet
 
-![badge](https://img.shields.io/badge/license-MIT-blue)<br />
-
+![badge](https://img.shields.io/badge/license-BSD3clause-blue)<br />
 
  ## Table of Contents
   - [Description](#description)
@@ -14,7 +13,7 @@
   - [Tests](#tests)
 
   ## Description
-  Generate a professional README for your project with this easy to use, command-line application.
+  
 
   ## Installation
   
@@ -23,11 +22,10 @@
   
 
   ## Contribution
-  N/a
+  
 
   ## Tests
   
 
   ## License
-  MIT
-  https://opensource.org/licenses/MIT
+[BSD3clause](https://opensource.org/licenses/BSD-3-Clause)
