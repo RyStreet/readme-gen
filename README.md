@@ -15,6 +15,9 @@ ___
   ## Description 
   Welcome to the README Generator! This project uses node.js and inquirer to create professional READMEs. Users are prompted in the command line with a series of questions about their project. Upon entering their details, the program creates a professional README.
   
+  Demo gif:
+  ![readme-gen-demo-gif](https://user-images.githubusercontent.com/112584082/202011595-1c4a2a47-2990-4fc7-9ef0-5563c05b8e93.gif)
+  
  [Check out the video demo here](https://github.com/RyStreet/readme-gen/blob/main/README%20Generator%20Demo.webm)  
 ___
   ## Installation 
